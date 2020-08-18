@@ -1,0 +1,76 @@
+/* 
+
+.collection-main {
+  width: 600px;
+  height: 45px;
+  margin: 0 auto;
+  margin-bottom: 6px;
+  padding: 5px;
+  border: 1px solid rgb(44, 34, 85);
+  background: rgb(0, 180, 0, 0.4);
+  border-radius: 2px;
+}
+
+.blue-text {
+  text-align: center;
+  margin: 15px;
+  color: red;
+  opacity: 0.7;
+}
+
+.collection-item {
+  display: inline-block;
+}
+
+Burda yazim kodu ?nemm nece istiyirwen
+yoxe collection-item burda yerlesir kodu niye uncomment elemisen
+
+cunki avto design cagrilib
+tamam
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(#007af4, #1f2e39);
+  background-repeat: no-repeat;
+}
+.del-block {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  background: red;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.collection {
+  border: none;
+  margin-bottom: 10px;
+}
+
+.collection-item {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+#time-content {
+  display: inline-block;
+  width: 100px;
+  height: 45px;
+}
+
+#text-content {
+  width: 947px;
+  margin-right: 10px;
+}
